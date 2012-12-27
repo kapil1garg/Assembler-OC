@@ -10,6 +10,7 @@
 		EC6E83D6166D306E00D0910F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6E83D5166D306E00D0910F /* Foundation.framework */; };
 		EC6E83D9166D306E00D0910F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6E83D8166D306E00D0910F /* main.m */; };
 		EC6E83DD166D306E00D0910F /* AssemblerO_C.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC6E83DC166D306E00D0910F /* AssemblerO_C.1 */; };
+		EC6E83E5166D308800D0910F /* Assembler.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6E83E4166D308800D0910F /* Assembler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,10 @@
 		EC6E83D8166D306E00D0910F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC6E83DB166D306E00D0910F /* AssemblerO-C-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssemblerO-C-Prefix.pch"; sourceTree = "<group>"; };
 		EC6E83DC166D306E00D0910F /* AssemblerO_C.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AssemblerO_C.1; sourceTree = "<group>"; };
+		EC6E83E3166D308800D0910F /* Assembler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assembler.h; sourceTree = "<group>"; };
+		EC6E83E4166D308800D0910F /* Assembler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assembler.m; sourceTree = "<group>"; };
+		EC712B92168AC76F004AD73A /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		EC712B94168AC916004AD73A /* output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +79,10 @@
 			isa = PBXGroup;
 			children = (
 				EC6E83D8166D306E00D0910F /* main.m */,
+				EC6E83E3166D308800D0910F /* Assembler.h */,
+				EC6E83E4166D308800D0910F /* Assembler.m */,
+				EC712B94168AC916004AD73A /* output.txt */,
+				EC712B92168AC76F004AD73A /* test.txt */,
 				EC6E83DC166D306E00D0910F /* AssemblerO_C.1 */,
 				EC6E83DA166D306E00D0910F /* Supporting Files */,
 			);
@@ -140,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC6E83D9166D306E00D0910F /* main.m in Sources */,
+				EC6E83E5166D308800D0910F /* Assembler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +246,7 @@
 				EC6E83E2166D306E00D0910F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

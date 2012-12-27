@@ -1,0 +1,16 @@
+//Adds 2 numbers
+	@5
+	D=A
+	@a
+	M=D
+	@6
+	D=A
+	@b
+	M=D
+	@a
+	D=D+M
+	@sum
+	M=D
+(END)
+	@END
+	D;JMP
